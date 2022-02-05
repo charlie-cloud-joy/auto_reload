@@ -11,5 +11,6 @@ Watch for events to run tests which call messages and activate hooks to restart 
 
 __TODO:__  
  - tests  
-  - [ ] test for regular file  
-  - [ ] test for directory  
+   - [ ] test for regular file  
+   - [ ] test for directory  
+ - [ ] events ###### \# these are things auto_reload should watch for  

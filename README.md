@@ -14,3 +14,10 @@ __TODO:__
    - [ ] test for regular file  
    - [ ] test for directory  
  - [ ] events ###### \# these are things auto_reload should watch for  
+ - messages ###### \# root folder indicate success messages subfolders indicate error or otherwise  
+   - [ ] found  
+     - indicates that the argument matches the query (file or directory)  
+   - [ ] err/dir_not_found  
+     - indicates that the argument is not a directory  
+   - [ ] err/leaf_not_found  
+     - indicates that the argument is not a regularfile  

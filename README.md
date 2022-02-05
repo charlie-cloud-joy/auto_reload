@@ -11,5 +11,5 @@ Watch for events to run tests which call messages and activate hooks to restart 
 
 __TODO:__  
  - tests  
-  - [x] test for regular file  
-  - [x] test for directory  
+  - [ ] test for regular file  
+  - [ ] test for directory  

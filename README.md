@@ -4,6 +4,11 @@ _reload stuff when things happen_
 ```bash
 ./
 ├── README.md
+├── msg/
+│  ├── err/
+│  │  ├── dir_not_found
+│  │  └── leaf_not_found
+│  └── found
 └── test/
    ├── is_dir*
    └── is_leaf*

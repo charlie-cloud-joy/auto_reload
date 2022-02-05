@@ -1,0 +1,20 @@
+#!/bin/bash
+
+root="$(dirname $(realpath $0))/.."
+rtrue() {
+  out="$(cat $root/msg/found)"
+  slug=${out/\$1/$1} # replaces $1 in the message with the actual argument
+  printf "${LIGHT_GREEN}$slug${NC}\n"
+  return 0
+}
+
+rfalse() {
+  out="$(cat $root/msg/err/leaf_not_found)"
+  slug=${out/\$1/$1} # " (ditto)
+  printf "${PINK}$slug${NC}\n"
+  return 1
+}
+
+[[ -f $1 ]] \
+  && rtrue $1 \
+  || rfalse $1

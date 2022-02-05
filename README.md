@@ -1,4 +1,4 @@
-# auto_reload  
+# Auto Reload  
 ###### _reload stuff when things happen_  
 
 ```bash
